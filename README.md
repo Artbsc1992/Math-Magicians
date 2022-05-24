@@ -15,14 +15,26 @@
 
 [Live Demo Link](https://livedemo.com)
 
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+- copy this link `https://github.com/artbsc1992/math-magicians`.
+- get the directory that you want to clone the repository.
+- open the command prompt in this directory.
+- write `git clone https://github.com/artbsc1992/math-magicians`.
+- go to the repository folder in your command prompt `cd math-magicians`.
+- run `npm install` to install packages.
+- run `npm start` to run the app.
+
 
 ## Authors
 
 👤 **Arturo**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@Artbsc1992](https://github.com/Artbsc1992)
+- Twitter: [@Arturo_D_Rock](https://twitter.com/Arturo_D_Rock)
+- LinkedIn: [Arturo Hermida](https://www.linkedin.com/in/arturo-hermida29/)
 
 
 
