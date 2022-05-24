@@ -1,7 +1,6 @@
-import { Component } from 'react';
+import { PureComponent } from 'react';
 
-// eslint-disable-next-line react/prefer-stateless-function
-export default class Calculator extends Component {
+export default class Calculator extends PureComponent {
   render() {
     return (
       <div className="calculator">
