@@ -1,11 +1,12 @@
 import { Component } from 'react';
 import calculate from '../logic/calculate';
+import Display from './display';
 // eslint-disable-next-line react/prefer-stateless-function
 export default class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      total: null,
+      total: 0,
       next: null,
       operation: null,
     };
@@ -19,13 +20,13 @@ export default class Calculator extends Component {
     const { total, next, operation } = this.state;
     return (
       <div className="calculator">
-        <div className="display">
+        <Display>
           { total }
           {' '}
           { operation }
           {' '}
           { next }
-        </div>
+        </Display>
         <div className="buttons line1">
           <button type="button" onClick={() => this.buttonClick('AC')}>AC</button>
           <button type="button" onClick={() => this.buttonClick('+/-')}>+/-</button>
