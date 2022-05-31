@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => (
   <div>
@@ -10,14 +10,13 @@ const NavBar = () => (
         {' '}
         |
         {' '}
-        <li><Link to="/Calculator">Calculator</Link></li>
+        <li><Link to="/calculator">Calculator</Link></li>
         {' '}
         |
         {' '}
-        <li><Link to="/Quote">Quote</Link></li>
+        <li><Link to="/quote">Quote</Link></li>
       </ul>
     </nav>
-    <Outlet />
   </div>
 );
 
