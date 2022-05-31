@@ -20,7 +20,7 @@ form {
   font-weight: normal;
   font-family: 'Roboto', sans-serif;
   background-color: transparent;
-  color:rgb(233, 232, 232)
+  color: rgb(233, 232, 232);
 }
 
 ol,
@@ -29,12 +29,12 @@ ul {
 }
 
 body {
-  background: linear-gradient(to right, #2c3e50, #3498db)
+  background: linear-gradient(to right, #2c3e50, #3498db);
 }
 
 a {
   text-decoration: none;
-  color:rgb(233, 232, 232);
+  color: rgb(233, 232, 232);
 }
 
 a:hover {
@@ -72,6 +72,10 @@ a:hover {
   align-self: flex-start;
 }
 
+.home h2 {
+  font-size: 40px;
+}
+
 .App div h2 {
   font-size: 35px;
 }
@@ -80,10 +84,6 @@ a:hover {
   display: block;
   margin: auto;
   max-width: 65%;
-}
-
-.home h2 {
-  font-size: 40px;
 }
 
 .home p {
@@ -96,7 +96,7 @@ a:hover {
   width: 100%;
   max-width: 350px;
   background-color: #fff;
-  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
 }
 
 .quote {
@@ -152,11 +152,10 @@ button:hover {
 }
 
 .line5 button:nth-child(1) {
-  flex: 1 1 97.500%;
+  flex: 1 1 97.5%;
   max-width: 40.333%;
 }
 
 .line5 button:nth-child(3) {
   background-color: rgb(252, 128, 46);
 }
-
