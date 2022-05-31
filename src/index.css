@@ -26,9 +26,22 @@ ul {
   list-style-type: none;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 20vh;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 300px;
+}
+
 .App {
   display: flex;
-  min-height: 100vh;
+  min-height: 80vh;
   align-items: center;
   justify-content: center;
 }
