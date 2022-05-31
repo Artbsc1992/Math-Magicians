@@ -16,7 +16,7 @@ root.render(
       <NavBar />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/" element={<Navigate replace to="/home" />} />
+        <Route path="*" element={<Navigate replace to="/home" />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/quote" element={<Quote />} />
       </Routes>
