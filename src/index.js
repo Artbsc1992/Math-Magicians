@@ -15,8 +15,8 @@ root.render(
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/home" element={<Home />} />
-        <Route path="*" element={<Navigate replace to="/home" />} />
+        <Route path="/" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" />} />
         <Route path="/calculator" element={<Calculator />} />
         <Route path="/quote" element={<Quote />} />
       </Routes>
