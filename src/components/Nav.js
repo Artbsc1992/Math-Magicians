@@ -6,7 +6,7 @@ const NavBar = () => (
     <nav className="navbar">
       <h1>Math Magicians</h1>
       <ul className="links">
-        <li><Link to="/home">Home</Link></li>
+        <li><Link to="/">Home</Link></li>
         {' '}
         |
         {' '}
