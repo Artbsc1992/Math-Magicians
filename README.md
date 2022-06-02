@@ -2,7 +2,7 @@
 
 # Math Magicians
 
-> App created by using REACT that shows you a one page app which include
+> App created by using REACT that shows you a one page app which include Home, a fully functional calculator and a quote.
 
 
 ## Built With
