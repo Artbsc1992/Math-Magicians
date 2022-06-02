@@ -11,9 +11,10 @@
 - CSS
 - Gitflow
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+[Netlify](https://statuesque-flan-820fa7.netlify.app/)
+[Heroku](https://arturo-math-magicians.herokuapp.com/)
 
 ## Getting Started
 
